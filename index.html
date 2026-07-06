@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CLQ Technologies | Unified IT &amp; Security Infrastructure for Small Business</title>
-<meta name="description" content="CLQ Technologies designs, installs, and manages Ubiquiti-based IT and network security systems for 5–20 person businesses in Denver, CO. Enterprise-grade infrastructure without the enterprise price tag.">
+<title>CLQ Technologies | Enterprise IT &amp; Network Security — Denver, CO</title>
+<meta name="description" content="CLQ Technologies designs, installs, and manages Ubiquiti-based IT and network security systems for small businesses in Denver and the surrounding area. Enterprise-grade infrastructure without the enterprise price tag.">
 
 <!-- Fonts: Syne (headings) + DM Sans (body) — matches existing CLQ brand materials -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,6 +12,7 @@
 <!-- Tabler Icons (free icon font) -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/tabler-icons.min.css">
 
+<link rel="icon" type="image/png" href="assets/logo-icon.png">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,7 +20,10 @@
 <!-- ============ NAV ============ -->
 <header class="site-header">
   <nav class="nav container">
-    <a href="#top" class="brand">CLQ <span>Technologies</span></a>
+    <a href="#top" class="brand">
+      <img src="assets/logo-icon.png" alt="" class="brand-mark" aria-hidden="true">
+      <span class="brand-word">CLQ <span>Technologies</span></span>
+    </a>
 
     <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
       <i class="ti ti-menu-2" aria-hidden="true"></i>
@@ -27,10 +31,12 @@
 
     <div class="nav-links" id="navLinks">
       <a href="#value">Why CLQ</a>
+      <a href="#work">Our Work</a>
       <a href="#process">How It Works</a>
       <a href="#pricing">Pricing</a>
       <a href="#reviews">Reviews</a>
       <a href="#about">About</a>
+      <a href="tel:7205990121" class="nav-phone"><i class="ti ti-phone" aria-hidden="true"></i> 720-599-0121</a>
       <a href="#contact" class="btn btn-primary btn-small">Book a Diagnostic</a>
     </div>
   </nav>
@@ -40,20 +46,43 @@
 
   <!-- ============ HERO ============ -->
   <section class="hero">
+    <div class="hero-lines" aria-hidden="true">
+      <svg viewBox="0 0 1200 800" preserveAspectRatio="none">
+        <path d="M0 120 H260 L320 180 H620 L680 120 H1200" />
+        <path d="M0 620 H180 L240 560 H520 L590 690 H900 L960 620 H1200" />
+        <path d="M900 0 V140 L840 200 V420 L900 480 V800" />
+        <path d="M150 0 V90 L210 150 V300" />
+        <circle cx="260" cy="120" r="4" />
+        <circle cx="680" cy="120" r="4" />
+        <circle cx="900" cy="480" r="4" />
+        <circle cx="240" cy="560" r="4" />
+        <circle cx="900" cy="140" r="4" />
+      </svg>
+    </div>
     <div class="container hero-grid">
       <div class="hero-copy">
         <div class="eyebrow"><i class="ti ti-wifi" aria-hidden="true"></i> Ubiquiti-Based Systems</div>
         <h1>Enterprise-grade infrastructure. <span class="accent">Without the enterprise price tag.</span></h1>
-        <p class="hero-sub">CLQ Technologies designs, installs, and manages unified IT and security systems for small businesses — one dashboard, one vendor, no patchwork gear, no bloated licensing fees.</p>
+        <p class="hero-sub">CLQ Technologies designs, installs, and manages unified IT and network security systems for small businesses across Denver and the surrounding area — one dashboard, one vendor, no patchwork gear, no bloated licensing fees.</p>
         <div class="hero-actions">
           <a href="#contact" class="btn btn-primary">Book Your $350 Diagnostic</a>
-          <a href="#pricing" class="btn btn-ghost">See Pricing <i class="ti ti-arrow-down" aria-hidden="true"></i></a>
+          <a href="tel:7205990121" class="btn btn-ghost"><i class="ti ti-phone" aria-hidden="true"></i> 720-599-0121</a>
         </div>
         <div class="hero-note"><i class="ti ti-check" aria-hidden="true"></i> Diagnostic fee credited in full toward your install</div>
       </div>
 
-      <div class="hero-panel" aria-hidden="true">
-        <div class="panel-card">
+      <div class="hero-visual">
+        <!--
+          NOTE FOR JAHEEM: Drop a high-res, horizontal on-site photo here
+          (technician mounting an access point, rack build-out, or a clean
+          shot of a finished installation). Replace the placeholder div
+          below with: <img src="assets/your-photo.jpg" alt="...">
+        -->
+        <div class="hero-photo placeholder-photo">
+          <i class="ti ti-photo" aria-hidden="true"></i>
+          <span>Add photo: on-site install / technician at work</span>
+        </div>
+        <div class="panel-card floating-panel">
           <div class="panel-row">
             <span class="dot dot-green"></span> Network Uptime
             <span class="panel-value">99.9%</span>
@@ -76,7 +105,7 @@
   <!-- ============ TRUST STRIP ============ -->
   <section class="trust-strip">
     <div class="container trust-grid">
-      <div><i class="ti ti-map-pin" aria-hidden="true"></i> Denver, CO Based</div>
+      <div><i class="ti ti-map-pin" aria-hidden="true"></i> Denver &amp; Surrounding Area</div>
       <div><i class="ti ti-users" aria-hidden="true"></i> Built for 5–20 Employee Teams</div>
       <div><i class="ti ti-shield-check" aria-hidden="true"></i> Licensed &amp; Insured</div>
       <div><i class="ti ti-network" aria-hidden="true"></i> Unified Ubiquiti Ecosystem</div>
@@ -117,8 +146,49 @@
     </div>
   </section>
 
+  <!-- ============ OUR WORK / FIELD INSTALLS ============ -->
+  <section class="section section-alt" id="work">
+    <div class="container">
+      <div class="section-head">
+        <div class="tag">In The Field</div>
+        <h2>Real installs. Real infrastructure.</h2>
+        <p class="section-sub">A look at the networks, racks, and access points we build and manage across the Denver metro.</p>
+      </div>
+
+      <div class="work-grid">
+        <figure class="work-photo work-photo-large">
+          <img src="assets/install-rack.jpg" alt="Managed network rack build-out installed by CLQ Technologies">
+          <figcaption>Managed switch &amp; network rack build-out</figcaption>
+        </figure>
+
+        <!--
+          NOTE FOR JAHEEM: Replace each placeholder tile below with a real
+          field photo — access point mounts, camera installs, cable runs,
+          client walkthroughs, etc. Swap the placeholder div for:
+          <img src="assets/your-photo.jpg" alt="...">
+        -->
+        <figure class="work-photo placeholder-photo">
+          <i class="ti ti-access-point" aria-hidden="true"></i>
+          <span>Add photo: access point install</span>
+        </figure>
+        <figure class="work-photo placeholder-photo">
+          <i class="ti ti-camera" aria-hidden="true"></i>
+          <span>Add photo: security camera / NVR setup</span>
+        </figure>
+        <figure class="work-photo placeholder-photo">
+          <i class="ti ti-cable" aria-hidden="true"></i>
+          <span>Add photo: cable run / structured wiring</span>
+        </figure>
+        <figure class="work-photo placeholder-photo">
+          <i class="ti ti-building-store" aria-hidden="true"></i>
+          <span>Add photo: client site walkthrough</span>
+        </figure>
+      </div>
+    </div>
+  </section>
+
   <!-- ============ HOW IT WORKS ============ -->
-  <section class="section section-alt" id="process">
+  <section class="section" id="process">
     <div class="container">
       <div class="section-head">
         <div class="tag">The Process</div>
@@ -152,7 +222,7 @@
   </section>
 
   <!-- ============ PRICING ============ -->
-  <section class="section" id="pricing">
+  <section class="section section-alt" id="pricing">
     <div class="container">
       <div class="section-head">
         <div class="tag">Pricing</div>
@@ -246,7 +316,7 @@
   </section>
 
   <!-- ============ REVIEWS ============ -->
-  <section class="section section-alt" id="reviews">
+  <section class="section" id="reviews">
     <div class="container">
       <div class="section-head">
         <div class="tag">Reviews</div>
@@ -258,23 +328,33 @@
         show the intended layout and tone. Replace each quote, name, and business
         with a real client testimonial as soon as you have one on file — the
         Testimonial + Case Study Capture Script in your "5 - Retain & Expand"
-        folder is built for exactly this. Do not publish these as-is.
+        folder is built for exactly this. Do not publish these as-is. Swap the
+        ".avatar-placeholder" div for a real client headshot or logo when available.
       -->
       <div class="review-grid">
         <div class="review-card">
           <div class="stars"><i class="ti ti-star-filled" aria-hidden="true"></i><i class="ti ti-star-filled" aria-hidden="true"></i><i class="ti ti-star-filled" aria-hidden="true"></i><i class="ti ti-star-filled" aria-hidden="true"></i><i class="ti ti-star-filled" aria-hidden="true"></i></div>
           <p>"[REPLACE WITH REAL QUOTE] Our old network went down twice a month. Since CLQ installed the Command package, we haven't had a single outage — and I can actually see what's happening on our network for the first time."</p>
-          <div class="review-author">— [Client Name], [Business Name / Industry]</div>
+          <div class="review-footer">
+            <div class="avatar-placeholder" aria-hidden="true"><i class="ti ti-user" aria-hidden="true"></i></div>
+            <div class="review-author">— [Client Name], [Business Name / Industry]</div>
+          </div>
         </div>
         <div class="review-card">
           <div class="stars"><i class="ti ti-star-filled" aria-hidden="true"></i><i class="ti ti-star-filled" aria-hidden="true"></i><i class="ti ti-star-filled" aria-hidden="true"></i><i class="ti ti-star-filled" aria-hidden="true"></i><i class="ti ti-star-filled" aria-hidden="true"></i></div>
           <p>"[REPLACE WITH REAL QUOTE] The diagnostic alone was worth it — they found security gaps our previous IT guy never mentioned. Install was fast, and the monthly retainer is cheaper than what we were paying before for worse coverage."</p>
-          <div class="review-author">— [Client Name], [Business Name / Industry]</div>
+          <div class="review-footer">
+            <div class="avatar-placeholder" aria-hidden="true"><i class="ti ti-user" aria-hidden="true"></i></div>
+            <div class="review-author">— [Client Name], [Business Name / Industry]</div>
+          </div>
         </div>
         <div class="review-card">
           <div class="stars"><i class="ti ti-star-filled" aria-hidden="true"></i><i class="ti ti-star-filled" aria-hidden="true"></i><i class="ti ti-star-filled" aria-hidden="true"></i><i class="ti ti-star-filled" aria-hidden="true"></i><i class="ti ti-star-filled" aria-hidden="true"></i></div>
           <p>"[REPLACE WITH REAL QUOTE] We're a 12-person shop and always felt too small for 'real' IT support. CLQ treated us like it mattered. Same system big companies use, priced for a business our size."</p>
-          <div class="review-author">— [Client Name], [Business Name / Industry]</div>
+          <div class="review-footer">
+            <div class="avatar-placeholder" aria-hidden="true"><i class="ti ti-user" aria-hidden="true"></i></div>
+            <div class="review-author">— [Client Name], [Business Name / Industry]</div>
+          </div>
         </div>
       </div>
 
@@ -288,32 +368,38 @@
   </section>
 
   <!-- ============ ABOUT ============ -->
-  <section class="section" id="about">
+  <section class="section section-alt" id="about">
     <div class="container about-grid">
+      <div class="about-photo-col">
+        <div class="about-photo-frame">
+          <img src="assets/headshot.png" alt="Jaheem Colquhoun-Laird, Founder of CLQ Technologies">
+        </div>
+      </div>
       <div>
         <div class="tag">About CLQ Technologies</div>
         <h2>Built for the businesses everyone else overlooks.</h2>
         <p>Most 5–20 person businesses are stuck in the middle: too small for enterprise IT vendors to take seriously, too big to keep limping along on consumer-grade routers and a guy who "knows computers." CLQ Technologies exists to close that gap.</p>
-        <p>We're a Denver, CO-based team that designs, installs, and manages unified IT and security infrastructure built on the Ubiquiti ecosystem — the same architecture used in enterprise networks, packaged and priced for small business budgets. No bloated contracts, no vendor runaround, no jargon. Just a system that works, and a team that picks up the phone when it doesn't.</p>
+        <p>We're a Denver-based team serving Denver and the surrounding area, designing, installing, and managing unified IT and security infrastructure built on the Ubiquiti ecosystem — the same architecture used in enterprise networks, packaged and priced for small business budgets. No bloated contracts, no vendor runaround, no jargon. Just a system that works, and a team that picks up the phone when it doesn't.</p>
         <p>Every engagement starts the same way: we look before we build. That's why the diagnostic comes first — so you know exactly what's wrong, what it costs to fix, and what you're getting before you commit to anything.</p>
         <a href="#contact" class="btn btn-primary">Talk to Us</a>
-      </div>
-      <div class="about-stats">
-        <div class="stat-card">
-          <div class="stat-num">5–20</div>
-          <div class="stat-label">Employee businesses we specialize in</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-num">$350</div>
-          <div class="stat-label">Diagnostic, fully credited toward install</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-num">1</div>
-          <div class="stat-label">Unified dashboard for your whole network</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-num">Denver, CO</div>
-          <div class="stat-label">Locally based, on-site when it matters</div>
+
+        <div class="about-stats">
+          <div class="stat-card">
+            <div class="stat-num">5–20</div>
+            <div class="stat-label">Employee businesses we specialize in</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">$350</div>
+            <div class="stat-label">Diagnostic, fully credited toward install</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">1</div>
+            <div class="stat-label">Unified dashboard for your whole network</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">Denver</div>
+            <div class="stat-label">&amp; the surrounding area, on-site when it matters</div>
+          </div>
         </div>
       </div>
     </div>
@@ -325,12 +411,17 @@
       <h2>Ready to see what's actually happening on your network?</h2>
       <p>Book a diagnostic and get a clear, written picture of what you have, what's at risk, and what it takes to fix it — credited in full if you move forward.</p>
       <div class="cta-actions">
-        <a href="mailto:Kelly@CLQdenver.com?subject=Diagnostic%20Request%20-%20CLQ%20Technologies&body=Business%20name%3A%0AEmployee%20count%3A%0ABest%20time%20to%20reach%20you%3A%0A" class="btn btn-primary btn-large">
-          <i class="ti ti-mail" aria-hidden="true"></i> Book Your $350 Diagnostic
+        <a href="tel:7205990121" class="btn btn-primary btn-large">
+          <i class="ti ti-phone" aria-hidden="true"></i> Call 720-599-0121
+        </a>
+        <a href="mailto:support@clqbackoffice.com?subject=Diagnostic%20Request%20-%20CLQ%20Technologies&body=Business%20name%3A%0AEmployee%20count%3A%0ABest%20time%20to%20reach%20you%3A%0A" class="btn btn-outline btn-large">
+          <i class="ti ti-mail" aria-hidden="true"></i> Email Us
         </a>
       </div>
       <div class="cta-contact">
-        <i class="ti ti-mail" aria-hidden="true"></i> <a href="mailto:Kelly@CLQdenver.com">Kelly@CLQdenver.com</a>
+        <i class="ti ti-mail" aria-hidden="true"></i> <a href="mailto:support@clqbackoffice.com">support@clqbackoffice.com</a>
+        <span class="cta-divider">&middot;</span>
+        <i class="ti ti-map-pin" aria-hidden="true"></i> Serving Denver &amp; the surrounding area
       </div>
     </div>
   </section>
@@ -341,20 +432,24 @@
 <footer class="site-footer">
   <div class="container footer-grid">
     <div>
-      <div class="brand">CLQ <span>Technologies</span></div>
-      <p class="footer-tagline">Unified IT &amp; Security Infrastructure for Small Business</p>
+      <a href="#top" class="brand footer-brand">
+        <img src="assets/logo-icon.png" alt="" class="brand-mark" aria-hidden="true">
+        <span class="brand-word">CLQ <span>Technologies</span></span>
+      </a>
+      <p class="footer-tagline">Enterprise IT &amp; Network Security for Small Business</p>
     </div>
     <div class="footer-links">
       <a href="#value">Why CLQ</a>
+      <a href="#work">Our Work</a>
       <a href="#process">How It Works</a>
       <a href="#pricing">Pricing</a>
       <a href="#reviews">Reviews</a>
       <a href="#about">About</a>
     </div>
     <div class="footer-contact">
-      <div><i class="ti ti-mail" aria-hidden="true"></i> Kelly@CLQdenver.com</div>
-      <div><i class="ti ti-map-pin" aria-hidden="true"></i> Denver, CO</div>
-      <div><i class="ti ti-world" aria-hidden="true"></i> clqtechs.com</div>
+      <div><i class="ti ti-phone" aria-hidden="true"></i> <a href="tel:7205990121">720-599-0121</a></div>
+      <div><i class="ti ti-mail" aria-hidden="true"></i> <a href="mailto:support@clqbackoffice.com">support@clqbackoffice.com</a></div>
+      <div><i class="ti ti-map-pin" aria-hidden="true"></i> Denver &amp; the surrounding area</div>
     </div>
   </div>
   <div class="footer-bottom container">

@@ -596,7 +596,6 @@ section[id] { scroll-margin-top: 88px; }
 }
 .process-photo-before { min-height: 160px; }
 .process-photo-after { min-height: 220px; }
-.process-photo-after figcaption { color: var(--green); }
 
 .process-card {
   background: var(--surface);
